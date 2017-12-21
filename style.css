@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+
+.animation {
+    width:100px;
+    height:100px;
+    position:absolute;
+    top:0;
+    left:0;
+	animation: move 2s infinite alternate;
+}
+
+@keyframes move {
+    0% {
+        left:0;
+        top:0;
+        background-color:#F90;
+    }
+    20% {
+        left:60%;
+        top:50%;
+    }
+    60% {
+        left:30%;
+        top:80%;
+        background-color:#066;
+    }
+    100% {
+        left:0;
+        top:0;
+        background-color:#F90;
+    }
+}
