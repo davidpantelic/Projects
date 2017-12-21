@@ -1,0 +1,15 @@
+<html>
+<head>
+<title>Form</title>
+</head>
+<body>
+	<script>
+		var new_cookie=document.cookie;
+		new_cookie= "userVisits=7;";
+		var cookie = new_cookie.split("=");
+		var name= cookie[0];
+		var value = decodeURI(cookie[1]);
+		document.write(name+" " + value);
+	</script>
+</body>
+</html>

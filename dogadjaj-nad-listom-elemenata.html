@@ -1,0 +1,33 @@
+<html>
+<head>
+<title>Dogadjaj nad listom elemenata</title>
+</head>
+<body>
+
+	<form>
+		<label for="option">Izaberite boju</label>
+			<select name="option" size="1" onchange="lista(this)">
+				<option value="crvena">Crvena</option>
+				<option value="plava">Plava</option>
+				<option value="zuta">Zuta</option>
+				<option value="zelena">Zelena</option>
+				<option value="crna">Crna</option>
+			</select>
+	</form>
+
+	<div id="div1">
+
+	</div>
+
+	<script>
+
+		function lista(boja){
+			var x = boja.value;
+			y = document.getElementById('div1');
+			y.innerHTML = x;
+		}
+
+	</script>
+
+</body>
+</html>

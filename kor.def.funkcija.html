@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Box area</title>
+</head>
+<body>
+
+	<button type="button" onclick="kalkulator()">Area of the box</button>
+
+  <script>
+		
+		function kalkulator(){
+			var A, B, C, P;
+			A = parseInt(prompt("Side A = "));
+			B = parseInt(prompt("Side B = "));
+			C = parseInt(prompt("Side c = "));
+			P = 2*(A*B+A*C+B*C);
+			alert("Box area which sides are: "+A+"cm, "+B+"cm, "+C+"cm is: "+P+" cm per square.");
+		}
+		
+  </script>
+</body>
+</html>

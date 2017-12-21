@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Circle area</title>
+</head>
+<body>
+	<script>
+		function formula(){
+		var radius =document.form1.poluprecnik.value;
+		document.write("Area of circle with " + radius + " cm radius, is: " + (Math.pow(radius,2) * Math.PI) + " cm<sup>2</sup>");
+		}
+	</script>
+	
+	<form name=form1>
+      Put the circle radius:
+     <input type="text" name="poluprecnik" size=10>
+     <br>
+     <input type="button" value="Calculate" onClick='formula()'>
+	</form>
+  
+</body>
+</html>

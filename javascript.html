@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Osečina</title>
+</head>
+<body>
+  <script>
+  
+		/*
+		var arr = [];
+		arr[0]=[1," John","Johnson","1111111111111"];
+		arr[1]=[2,"Robert","Anderson","2222222222222"];
+		arr[2]=[3,"Thomas"," Miller","3333333333333"];
+		*/
+ 
+		//document.write(arr[1][2]);
+ 
+		//for(i=0;i<arr.length;i++) //pristupanje pojedinacnim delovima niza
+		//document.write(arr[i][2]);
+	
+		//for(i=0;i<arr.length;i++) //pristupanje svim podacima iz niza
+		//document.write(arr[i][0] + " " + arr[i][1] + " " + arr[i][2] + " " + arr[i][3] + "<br/>");
+		
+		//arr[1][1]=" Taylor"; //dodavanje ili menjanje vrednosti odredjenih elemenata niza
+		//document.write(arr[1][1]);
+ 
+ 
+ 
+		
+		
+		
+		/*
+		var user = {        //asocijativni niz(sa jos jednim asocijativnim nizom u sebi), pristupanje pomocu kljuceva
+               id:1,
+               name:'John',
+               password:'John100',
+               tel: {
+                   personal:'0111222',
+                   business:'1222333'
+               }
+              };  
+		*/
+		
+		//document.write(user['tel']['business']); //pristupanje moze i ovako: user.tel.business    ili 
+		                                         //Prvi način: user['tel'].business    ili     Drugi način: user.tel['business']
+ 
+		
+		
+		
+		
+		
+		var user = {    //izlistavanje asocijativnog niza pomocu for...in petlje
+               id:1,
+               name:'John',
+               password:'John100',
+              };  
+		for(var i in user){
+          document.write(user[i] + "<br/>");
+		}
+ 
+  </script>
+</body>
+</html>
