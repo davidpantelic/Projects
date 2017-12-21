@@ -1,0 +1,148 @@
+body {
+	background: url(pattern7.jpg)
+}
+
+#header {
+	width:800px;
+	height:150px;
+	border-left:10px solid #ffc100;
+	border-top:10px solid #ffc100;
+	border-right:10px solid #ffc100;
+	border-radius:10px;
+	margin-left:220px;
+	margin-right:220px;
+	background-image: url(put.jpg);
+	background-repeat:no-repeat;
+	background-size:800px;
+	background-position:left -50px;
+}
+
+#naslov {
+	color:white;
+	text-align:center;
+	padding:15px;
+	text-shadow:5px 10px 3px #000;
+	font-weight:bold;
+	font-family:Helvetica, Arial, sans-serif;
+}
+
+.navi {
+	display:inline;
+	padding-left:51px;
+	padding-right:51px;
+	color:white;
+	border:2px solid white;
+	border-radius:10px;
+	font-family:Helvetica, Arial, sans-serif;
+}
+
+a:link,
+a:visited {
+	text-decoration:none;
+	color:#fff;
+}
+
+a:hover {
+	color:#ffc100;
+}
+
+a:active {
+	text-decoration:none;
+	color:#ffff00;
+}
+
+
+#main {
+	width:550px;
+	height:600px;
+	border-left:10px solid #ffc100;
+	border-radius:10px;
+	background-color:#808080;
+	margin-left:220px;
+}
+
+#sidebar {
+	width:230px;
+	height:600px;
+	border-right:10px solid #ffc100;
+	border-radius:10px;
+	background-color:#808080;
+	position:relative;
+	left:800px;
+	bottom:620px;
+}
+
+#footer {
+	width:800px;
+	border-left:10px solid #ffc100;
+	border-bottom:10px solid #ffc100;
+	border-right:10px solid #ffc100;
+	border-radius:10px;
+	margin-left:220px;
+	margin-right:220px;
+	margin-top:-620px;
+	background-image: url(put.jpg);
+	background-position:left -50px;
+}
+
+.copy {
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:6px;
+	color:white;
+	font-family:Helvetica, Arial, sans-serif;
+}
+
+#kontakt {
+	padding:20px;
+	line-height:2em;
+	font-size:2em;
+	font-family:Helvetica, Arial, sans-serif;
+	margin:20px;
+}
+
+#naslovprijave {
+	font-family:Helvetica, Arial, sans-serif;
+	padding:20px;
+}
+
+#poljaprijave {
+	font-family:Helvetica, Arial, sans-serif;
+	padding-left:20px;
+}
+
+#ovde {
+	font-family:Helvetica, Arial, sans-serif;
+}
+
+#programnaslov {
+	font-family:Helvetica, Arial, sans-serif;
+	padding:20px;
+}
+
+#kategorije {
+	font-family:Helvetica, Arial, sans-serif;
+	font-size:1.4em;
+	padding-left:80px;
+}
+
+#naslovpocetne {
+	font-family:Helvetica, Arial, sans-serif;
+	padding:20px;
+}
+
+#tekstpocetne {
+	font-family:Helvetica, Arial, sans-serif;
+	padding:40px;
+	font-size:1.5em;
+	line-height:40px;
+}
+
+body {
+	color:white;
+}
+
+.cene {
+	font-family:Helvetica, Arial, sans-serif;
+	padding:10px;
+}
